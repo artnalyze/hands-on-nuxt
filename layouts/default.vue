@@ -5,6 +5,7 @@
       <li><nuxt-link to="/form">Form</nuxt-link></li>
       <li><nuxt-link to="/motion-ui">Motion UI</nuxt-link></li>
       <li><nuxt-link to="/scss-ex">SCSS Ex</nuxt-link></li>
+      <li><nuxt-link to="/animate">Animate</nuxt-link></li>
     </ul>
     <Nuxt />
   </div>

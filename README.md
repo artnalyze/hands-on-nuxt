@@ -40,5 +40,8 @@ $ npm i foundation-icon-fonts
 # add less loader
 $ npm i less --save-dev
 $ npm i less-loader --save-dev
+
+# add jquery-ui-bundle
+$ npm i jquery-ui-bundle
 ```
 
