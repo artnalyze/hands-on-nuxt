@@ -33,5 +33,8 @@ $ npm i what-input
 $ npm i motion-ui --save-dev
 $ npm i node-sass --save-dev
 $ npm i sass-loader --save-dev
+
+# add fonts
+$ npm i foundation-icon-fonts 
 ```
 
