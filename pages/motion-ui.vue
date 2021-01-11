@@ -1,5 +1,7 @@
 <template>
-  <h1 data-animation="spin-in">Hello Motion UI</h1>
+  <h1 data-animation="spin-in">
+    <i class="fi-heart"></i>
+    Hello Motion UI</h1>
 </template>
 
 <script>

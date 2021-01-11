@@ -16,7 +16,8 @@ export default {
   css: [
     'foundation-sites/dist/css/foundation.min.css',
     'assets/scss/main.scss',
-    'foundation-icon-fonts/foundation-icons.css'
+    'foundation-icon-fonts/foundation-icons.css',
+    'assets/less/main.less'
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)

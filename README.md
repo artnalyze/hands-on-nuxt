@@ -36,5 +36,9 @@ $ npm i sass-loader --save-dev
 
 # add fonts
 $ npm i foundation-icon-fonts 
+
+# add less loader
+$ npm i less --save-dev
+$ npm i less-loader --save-dev
 ```
 
