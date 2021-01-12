@@ -30,7 +30,8 @@ export default {
     '~/plugins/client-only/foundation.client.js',
     '~/plugins/utils.js',
     '~/plugins/client-only/motion-ui.client.js',
-    '~/plugins/client-only/jquery-ui-bundle.client.js'
+    '~/plugins/client-only/jquery-ui-bundle.client.js',
+    '~/plugins/client-only/aos.client-only.js'
   ],
 
   // Auto import components (https://go.nuxtjs.dev/config-components)
