@@ -1,11 +1,14 @@
 <template>
   <div class="row">
     <div class="grid-x">
-      <div class="medium-6 cell">
+      <div class="medium-4  cell" data-aos="fade-up"> <!--medium-offset-3-->
         <img class="welcome" src="~/assets/images/sample-0.jpg" alt="" />
       </div>
-      <div class="medium-6 cell">
+      <div class="medium-4 cell" data-aos="fade-up"><!--medium-offset-3-->
         <img src="~/assets/images/sample-1.jpg" alt="" />
+      </div>
+      <div class="medium-4 cell" data-aos="fade-up"><!--medium-offset-3-->
+        <img src="~/assets/images/sample-2.jpg" alt="" />
       </div>
     </div>
     <div id="accordion">
@@ -63,8 +66,12 @@
 
 <script>
 import $ from "jquery";
+import 'aos/dist/aos.css'
+import aos from 'aos'
+
 export default {
   mounted() {
+    aos.init();
     $("#accordion").accordion();
   }
 };

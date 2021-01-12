@@ -43,5 +43,8 @@ $ npm i less-loader --save-dev
 
 # add jquery-ui-bundle
 $ npm i jquery-ui-bundle
+
+# add aos Animate Library
+$ npm i aos
 ```
 

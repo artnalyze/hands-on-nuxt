@@ -9,6 +9,7 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "aos": "^2.3.4",
     "core-js": "^3.6.5",
     "foundation-icon-fonts": "^0.1.1",
     "foundation-sites": "^6.6.3",
