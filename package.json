@@ -16,6 +16,7 @@
     "jquery": "^3.5.1",
     "jquery-ui-bundle": "^1.12.1-migrate",
     "nuxt": "^2.14.6",
+    "swiper": "^6.4.5",
     "what-input": "^5.2.10"
   },
   "devDependencies": {
