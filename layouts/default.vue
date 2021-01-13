@@ -7,6 +7,7 @@
       <li><nuxt-link to="/scss-ex">SCSS Ex</nuxt-link></li>
       <li><nuxt-link to="/animate">Animate</nuxt-link></li>
       <li><nuxt-link to="/swiper">Swiper</nuxt-link></li>
+      <li><nuxt-link to="/global">Global</nuxt-link></li>
     </ul>
     <Nuxt />
   </div>
