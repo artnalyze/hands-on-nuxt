@@ -60,3 +60,29 @@ $ npm i aos
 $ npm i swiper
 ```
 
+### Viewm Routing, Components, Plugins, Modules
+
+#### Adding Views, Routes, and Transitions
+
+creating custom routes
+
+https://router.vuejs.org/
+
+creating basic routes
+```
+pages/
+--| users/
+-----| index.vue
+-----| john-doe.vue
+--| index.vue
+```
+
+creating dynamic routes
+```
+pages/
+--| _slug/
+-----| index.vue
+--| users/
+-----| _id_.vue
+--| index.vue
+```
