@@ -73,6 +73,14 @@ export default {
   mounted() {
     aos.init();
     $("#accordion").accordion();
+  },
+  head () {
+    return {
+      title: 'Hello World',
+      meta: [
+        { hid: 'description', name: 'description', content: 'My Nuxt Portfolio' },
+      ]
+    }
   }
 };
 </script>
