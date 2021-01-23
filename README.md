@@ -86,3 +86,51 @@ pages/
 -----| _id_.vue
 --| index.vue
 ```
+
+## install vue meta
+
+```sh
+$ npm i vue-meta
+```
+
+## Customizing the default meta tags in Nuxt apps
+
+```js
+// nuxt.config.js
+head: {
+    title: 'Nuxt',
+    titleTemplate: '%s | My Awesome Webapp',
+    meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { hid: 'description', name: 'description', content: 'My Nuxt portfolio' }
+    ]
+}
+```
+
+## Creating custom layouts
+
+### Modifying the default layout
+
+> layouts/about.vue
+
+```vue
+<template>
+    <div>
+        <div>...add an about navigation bar here....</div>
+        <nuxt/>
+    </div>
+</template>
+```
+
+> pages/about.vue
+
+```js
+export default {
+    layout: 'about'
+    // OR
+    layout (context) {
+        return 'about'
+    }
+}
+```
