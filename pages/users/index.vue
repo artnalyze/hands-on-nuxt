@@ -11,11 +11,20 @@
 <script>
 import axios from 'axios'
 export default {
-    async asyncData () {
-        let { data } = await axios.get('https://jsonplaceholder.typicode.com/users')
+    data () {
         return {
-            users: data
+            users: []
         }
+    },
+    async fetch () {
+        let { data } = await axios.get('https://jsonplaceholder.typicode.com/users')
+        this.users = data
     }
+    // async asyncData () {
+    //     let { data } = await axios.get('https://jsonplaceholder.typicode.com/users')
+    //     return {
+    //         users: data
+    //     }
+    // }
 }
 </script>

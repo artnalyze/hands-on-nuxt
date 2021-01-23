@@ -10,6 +10,7 @@
 <script>
 import axios from "axios";
 export default {
+  scrollToTop: true,
   async asyncData({ params }) {
     let { data } = await axios.get(
       `https://jsonplaceholder.typicode.com/users/${params.id}`

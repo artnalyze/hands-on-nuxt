@@ -23,7 +23,8 @@ export default {
     // 'foundation-icon-fonts/foundation-icons.css', import to foundation.client.js
     'assets/scss/main.scss',
     'assets/less/main.less',
-    'jquery-ui-bundle/jquery-ui.min.css'
+    'jquery-ui-bundle/jquery-ui.min.css',
+    'assets/css/transition.css'
   ],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
@@ -49,5 +50,17 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
+  },
+  // loading: {
+  //   color: '65d165'
+  // }
+  loading: '~/components/loading.vue',
+  pageTransition: {
+    name: 'fade',
+    mode: 'out-in'
+  },
+  layoutTransition: {
+    name: 'fade-layout',
+    mode: 'out-in'
   }
 }

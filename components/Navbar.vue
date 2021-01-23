@@ -9,6 +9,9 @@
       <li><nuxt-link to="/swiper">Swiper</nuxt-link></li>
       <li><nuxt-link to="/global">Global</nuxt-link></li>
       <li><nuxt-link to="/about">About</nuxt-link></li>
+      <li><nuxt-link to="/users">Users</nuxt-link></li>
+      <li><nuxt-link to="/posts">Posts</nuxt-link></li>
+      <li><nuxt-link to="/load1">Load1</nuxt-link></li>
     </ul>
     </nav>
 </template>

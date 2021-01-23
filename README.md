@@ -134,3 +134,50 @@ export default {
     }
 }
 ```
+
+### Understanding pages
+
+```vue
+<template>
+    <p>{{ message }}</p>
+</template>
+
+<script>
+export default {
+    asyncData(context) {
+        return {
+            message: 'This is Contact Page'
+        }
+    }
+}
+</script>
+```
+
+### The asyncData method
+
+```vue
+<template>
+    <p>{{ message }}</p>
+</template>
+
+<script>
+export default {
+    data () {
+        return {
+            message: 'hello w.'
+        }
+    },
+    asyncData(context) {
+        return {
+            message: 'This is Contact Page'
+        }
+    }
+}
+</script>
+```
+
+### The fetch method
+
+```
+
+```

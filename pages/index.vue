@@ -61,6 +61,12 @@
         </p>
       </div>
     </div>
+    <div class="container">
+      <p>Hello {{ name }}</p>
+      <nuxt-link to="/about">
+        Go to /about
+      </nuxt-link>
+    </div>
   </div>
 </template>
 
@@ -81,6 +87,13 @@ export default {
         { hid: 'description', name: 'description', content: 'My Nuxt Portfolio' },
       ]
     }
+  },
+  asyncData() {
+    return new Promise((resolve) => {
+      setTimeout(function () {
+        resolve({ name: 'world' })
+      }, 1000)
+    })
   }
 };
 </script>

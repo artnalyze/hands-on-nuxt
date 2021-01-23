@@ -1,0 +1,49 @@
+.page-enter,
+.page-leave-to {
+    opacity: 0;
+}
+
+.page-leave,
+.page-enter-to {
+    opacity: 1;
+}
+
+.page-enter-active,
+.page-leave-active {
+    transition: opacity 300ms;
+}
+
+.fade-enter,
+.fade-leave-to {
+    opacity: 0;
+}
+
+.fade-about-enter,
+.fade-about-leave-to {
+    opacity: 0;
+}
+
+.fade-about-leave,
+.fade-about-enter-to {
+    opacity: 1;
+}
+
+.fade-about-enter-active,
+.fade-about-leave-active {
+    transition: opacity 3s;
+}
+
+.fade-layout-enter,
+.fade-layout-leave-to {
+    opacity: 0;
+}
+
+.fade-layout-leave,
+.fade-layout-enter-to {
+    opacity: 1;
+}
+
+.fade-layout-enter-active,
+.fade-layout-leave-active {
+    transition: opacity .5s;
+}
