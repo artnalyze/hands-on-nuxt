@@ -21,3 +21,10 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+.loading-page {
+    position: fixed;
+    
+}
+</style>

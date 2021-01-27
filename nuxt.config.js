@@ -62,5 +62,6 @@ export default {
   layoutTransition: {
     name: 'fade-layout',
     mode: 'out-in'
-  }
+  },
+  pageTransition: 'bounce'
 }
